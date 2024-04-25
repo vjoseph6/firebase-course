@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* This will make sure the content is vertically centered in the viewport */
+}
+
+.App {
+  text-align: center;
+  /* Center the content horizontally */
+}
+
+input,
+button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-out {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
